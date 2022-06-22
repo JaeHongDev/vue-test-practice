@@ -4,12 +4,14 @@
 </template>
 
 <script>
+import AddCalculator from '@/components/AddCalculator.vue';
 import HelloWorld from './components/HelloWorld.vue';
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
+    AddCalculator,
   },
 };
 </script>
